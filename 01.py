@@ -17,8 +17,5 @@ for i in range(len(arr)):
     temp = 0
 sums.sort(reverse=True)
 
-print(sums[0])
-print(sums[1])
-print(sums[2])
 max = sums[0] + sums[1] + sums[2]
 print(max) 
